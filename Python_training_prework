@@ -1,0 +1,39 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
+print("Hello")
+
+#placeholders
+print(10*'a')
+ mytext = "I am %s years old"
+ print(mytext % 12)
+ name1 = "A"
+ name2 = "B"
+ mytext2 = "Hello I am %s and %s, how are you today"
+ print(mytext2 % (name1,name2))
+ 
+ # lists and tuples
+ shopping_list="eggs,milk,cheese,celery,peanut butter,baking soda"
+ print(shopping_list)
+ shopping_list2=['eggs','milk','cheese','celery','peanut butter','baking soda']
+ print(shopping_list2[3])
+ print(shopping_list2[2:5])
+ shopping_list2.append('chocolate bar') #to add new items into the list
+ print(shopping_list2)
+ del shopping_list2[6] # to delete some items of the list
+ print(shopping_list2)
+ 
+ #Turtle and canvas and how to draw thing in Python
+ import turtle # a small black arrow that moves around the screen
+ t=turtle.Pen() # to display a canvas to draw on
+ t.forward(50) #pixel
+ t.left(90) #degree
+ t.forward(50)
+ t.left(90)
+ t.forward(50)
+ t.left(90)
+ t.clear() #to clear what is on the canvas
+ 
